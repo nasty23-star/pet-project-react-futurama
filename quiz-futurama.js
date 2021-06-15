@@ -60,7 +60,7 @@ export default function Quiz() {
 		<div className='app'>
 			{showScore ? (
 				<div className='score-section'>
-					Good news, everyone! You scored {score} out of {questions.length}
+					Хорошие новости! У тебя {score} очка из {questions.length}
 				</div>
 			) : (
 				<>
