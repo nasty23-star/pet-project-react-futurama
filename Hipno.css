@@ -2,8 +2,8 @@
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 90px;
-    
+    padding-top: 10px;
+    padding-bottom: 280px;
 }
 .wordstyle {
     position: absolute;
@@ -13,5 +13,5 @@
     font-size: 30px;
 }
 .imgstyle {
-   padding-top: 60px;
+   padding-top: 20px;
 }
