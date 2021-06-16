@@ -1,14 +1,32 @@
 import React, { useState } from 'react';
-
+import './QuizFuturama.css';
 export default function Quiz() {
 	const questions = [
 		{
-			questionText: 'Коронная фраза Бендера?',
+			questionText: 'Коронная фраза робота Бендера?',
 			answerOptions: [
 				{ answerText: 'Хорошие новости', isCorrect: false },
 				{ answerText: 'Кийия!', isCorrect: false },
 				{ answerText: 'Укуси мой блестящий металлический зад!', isCorrect: true },
 				{ answerText: 'Я всех вас уничтожу!', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'У кого из героев сериала докторская степень по прикладной физике',
+			answerOptions: [
+				{ answerText: 'Фрай', isCorrect: false },
+				{ answerText: 'Лила', isCorrect: false },
+				{ answerText: 'Эми', isCorrect: true },
+				{ answerText: 'Хьюберт', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Кто из героев по причине аномального строения мозга устойчив к воздействию летающих мозгов?',
+			answerOptions: [
+				{ answerText: 'Лила', isCorrect: false },
+				{ answerText: 'Гермес', isCorrect: false },
+				{ answerText: 'Фрай', isCorrect: true },
+				{ answerText: 'Эми', isCorrect: false },
 			],
 		},
 		{
